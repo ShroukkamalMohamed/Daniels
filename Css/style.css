@@ -6,7 +6,7 @@ ul{list-style-type:none}
 a{text-decoration:none;color:#000}
 li{text-decoration:none}
 .max-w{width:900px}
-html{cursor: pointer;}
+html{cursor:pointer}
 :root{--defualtColor:black;--secondaryColor:white;--bgcolor:##f7f7f7}
 .home{background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../images/bg.jpg);background-size:cover;height:100vh;color:var(--secondaryColor)}
 .home h3{font-size:3rem;font-weight:300}
@@ -50,7 +50,7 @@ html{cursor: pointer;}
 .service__icons{display:inline-block;background-color:#f4f4f4;line-height:70px;width:70px;height:70px;border-radius:50%;text-align:center}
 .service__icons:hover i{color:var(--secondaryColor)}
 .service__icons:hover{background-color:var(--defualtColor)}
-.nav-link{color:#000; font-weight: 700;}
+.nav-link{color:#000;font-weight:700}
 .nav-link:hover{color:#000}
 .nav-pills .nav-link.active{background-color:#fff;color:#000;border:none;position:relative;width:0%}
 .nav-pills .nav-link.active::after{content:"";width:50px;height:2px;position:absolute;background-color:#000;bottom:0;left:0;transition:width 1s}
@@ -79,7 +79,7 @@ html{cursor: pointer;}
 .teams .card .social a{color:#f7f7f7}
 .teams__cards .social{opacity:0;background-color:rgba(255,255,255,.95);top:0;position:absolute;width:100%;text-align:center;height:80%;display:flex;justify-content:center;align-items:center;transition:1s}
 .contact__card .conttact__cardicon{display:inline-block;width:60px;height:60px;background-color:#f4f4f4;border-radius:50%;margin-bottom:10px;transition:all 1s}
-.contact__card .conttact__cardicon:hover{background:#1c1c1c;color:#eee}
+.contact__card:hover .conttact__cardicon{background:#1c1c1c;color:#eee}
 .contact__card .conttact__cardicon i{font-size:24px;line-height:60px}
 .contact__card p{color:#748182;font-size:12px;margin-bottom:30px}
 .contact input,.contact textarea{background-color:#f4f4f4}
